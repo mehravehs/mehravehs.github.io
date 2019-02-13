@@ -1,14 +1,33 @@
-@font-face { 
-  font-family: Droid Sans; 
-    src: url('../fonts/DroidSans-webfont.eot'); 
-    src: local("Droid Sans"), url('../fonts/DroidSans-webfont.woff'); 
-} 
+/* General styles
+ **************************************************/
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Lato Light'), local('Lato-Light'), url(https://themes.googleusercontent.com/static/fonts/lato/v6/KT3KS9Aol4WfR6Vas8kNcg.woff) format('woff');
+}
 
-@font-face { 
-  font-family: News Cycle; 
-    src: url('../fonts/NewsCycle-Regular.eot'); 
-    src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf'); 
-} 
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Lato Regular'), local('Lato-Regular'), url(https://themes.googleusercontent.com/static/fonts/lato/v6/9k-RPmcnxYEPm8CNFsH2gg.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 900;
+	src: local('Lato Black'), local('Lato-Black'), url(https://themes.googleusercontent.com/static/fonts/lato/v6/BVtM30trf7q_jfqYeHfjtA.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Lato';
+	font-style: italic;
+	font-weight: 400;
+	src: local('Lato Italic'), local('Lato-Italic'), url(https://themes.googleusercontent.com/static/fonts/lato/v6/oUan5VrEkpzIazlUe5ieaA.woff) format('woff');
+}
+
 
 html { 
   height: 100%;
@@ -25,7 +44,7 @@ article, aside, figure, footer, header, hgroup, nav, section {
 }
 
 body { 
-  font: normal .80em 'Droid Sans', arial, sans-serif;
+  font: normal .80em 'Lato', arial, sans-serif;
   background: #F9F9F9;
   color: #FFF;
 }
@@ -46,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2, h3 { 
-  font: normal 140% 'News Cycle', arial;
+  font: normal 140% 'Lato', arial;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;
 }
@@ -63,16 +82,16 @@ h3 {
 
 h4, h6 { 
   padding: 0 0 5px 0;
-  font: normal 120% 'Droid Sans', arial, sans-serif;
+  font: normal 120% 'Lato', arial, sans-serif;
 }
 
 h5, h6 { 
-  font: italic 100% 'Droid Sans', arial;
+  font: italic 100% 'Lato', arial;
   padding: 0 0 15px 0;
 }
 
 h6 { 
-  font: normal 100% 'Droid Sans', arial;
+  font: normal 100% 'Lato', arial;
 }
 
 a, a:hover { 
@@ -163,7 +182,7 @@ header {
 }
 
 #logo h1, #logo h2 { 
-  font: normal 250% 'News Cycle', arial, sans-serif;
+  font: normal 250% 'Lato', arial, sans-serif;
   border-bottom: 0;
   text-transform: none;
   margin: 0;
@@ -230,14 +249,14 @@ nav {
   
 .sidebar h3, .content h1 { 
   padding: 0 15px 20px 0;
-  font: 200% 'News Cycle', arial, sans-serif;
+  font: 200% 'Lato', arial, sans-serif;
   text-shadow:  #000 0 1px;
   margin: 0 1px;
 }
 
 .sidebar h3 { 
   padding: 4px 15px 9px 0;
-  font: 200% 'News Cycle', arial, sans-serif;
+  font: 200% 'Lato', arial, sans-serif;
 }
 
 .sidebar ul { 
@@ -278,7 +297,7 @@ nav {
 }
 
 footer { 
-  font: 100% 'Droid Sans', arial, sans-serif;
+  font: 100% 'Lato', arial, sans-serif;
   height: 125px;
   padding: 28px 0 5px 0;
   text-align: center; 
@@ -320,7 +339,7 @@ footer a:hover {
 .form_settings input, .form_settings textarea { 
   padding: 5px; 
   width: 299px; 
-  font: 100% 'Droid Sans', arial; 
+  font: 100% 'Lato', arial; 
   border: 1px solid #E5E5DB; 
   background: #FFF; 
   color: #47433F;
@@ -330,7 +349,7 @@ footer a:hover {
 }
   
 .form_settings .submit { 
-  font: 100% 'Droid Sans', arial; 
+  font: 100% 'Lato', arial; 
   border: 0; 
   width: 99px; 
   margin: 0 0 0 212px; 
@@ -345,7 +364,7 @@ footer a:hover {
 }
 
 .form_settings textarea, .form_settings select { 
-  font: 100% 'Droid Sans', arial; 
+  font: 100% 'Lato', arial; 
   width: 299px;
 }
 
@@ -430,7 +449,7 @@ html body ul.sf-menu ul ul {
 
 /* Framework for proper showing/hiding/positioning */
 ul.sf-menu,ul.sf-menu * { 
-  margin: 0;
+  margin: 2px;
   padding: 0;
 }
 
@@ -523,7 +542,7 @@ ul#nav ul {
 
 ul#nav li a { 
   padding:5px 20px 6px 20px;
-  font: 150% 'News Cycle', arial, sans-serif;
+  font: 150% 'Lato', arial, sans-serif;
   text-shadow: 1px 1px #007a74;
   text-decoration: none;
   color:#FFF;
