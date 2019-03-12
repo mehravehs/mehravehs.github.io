@@ -28,10 +28,6 @@
 	src: local('Lato Italic'), local('Lato-Italic'), url(https://themes.googleusercontent.com/static/fonts/lato/v6/oUan5VrEkpzIazlUe5ieaA.woff) format('woff');
 }
 
-@viewport {
-  width: device-width ;
-  zoom: 1.0 ;
-}
 html { 
   height: 100%;
 }
