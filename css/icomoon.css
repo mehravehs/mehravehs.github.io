@@ -2444,3 +2444,9 @@
 .icon-file-play:before {
   content: "\e929";
 }
+.icon-file-text2:before {
+  content: "\e926";
+}
+.icon-film:before {
+  content: "\e913";
+}
